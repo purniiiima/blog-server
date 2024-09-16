@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-    origin: 'http://localhost:3001', // Your frontend's origin
+    origin: 'https://blog-clientt.vercel.app/', // Your frontend's origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
     credentials: true, // Include credentials if needed (like cookies or auth headers)
   }));
